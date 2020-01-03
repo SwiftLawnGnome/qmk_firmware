@@ -1,5 +1,45 @@
 #include QMK_KEYBOARD_H
 
+/* enum unicode_names { */
+/*   RU_Y, */
+/*   RU_TS, */
+/*   RU_OO, */
+/*   RU_K, */
+/*   RU_YE, */
+/*   RU_N, */
+/*   RU_G, */
+/*   RU_SH, */
+/*   RU_SHH, */
+/*   RU_Z, */
+/*   RU_KH, */
+/*   RU_HARD, */
+/*   RU_F, */
+/*   RU_UY, */
+/*   RU_V, */
+/*   RU_A, */
+/*   RU_P, */
+/*   RU_R, */
+/*   RU_O, */
+/*   RU_L, */
+/*   RU_D, */
+/*   RU_GH, */
+/*   RU_EH, */
+/*   RU_YA, */
+/*   RU_CH, */
+/*   RU_S, */
+/*   RU_M, */
+/*   RU_EE, */
+/*   RU_T, */
+/*   RU_SOFT, */
+/*   RU_B, */
+/*   RU_YU, */
+/*   RU_YO */
+/* }; */
+
+/* const uint32_t PROGMEM unicode_map[] = { */
+/*   [RU_Y] = 0x0401 */
+/* }; */
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [0] = LAYOUT(KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_EQL, KC_GRV, KC_BSPC,
